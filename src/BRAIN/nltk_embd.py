@@ -6,14 +6,7 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from src.DATA.prompts import Dic  # Assuming Dic is defined in qna.py
-
-
-# Uncomment these lines if you haven't downloaded the NLTK resources
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+from src.DATA.prompts import Dic  
 
 
 def get_wordnet_pos(treebank_tag):
@@ -85,6 +78,11 @@ def get_content(query, vectorizer, X, dataset):
 
 # Main function to process the user query
 def nltk_sim_prompt(text):
+    # Uncomment these lines if you haven't downloaded the NLTK resources
+    import nltk
+    nltk.download('punkt')
+    nltk.download('wordnet')
+    nltk.download('averaged_perceptron_tagger')
     dataset = create_dataset(Dic)
     vectorizer, X = train_tfidf_vectorizer(dataset)
     result = get_content(text, vectorizer, X, dataset)
