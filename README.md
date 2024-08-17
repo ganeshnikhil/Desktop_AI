@@ -73,9 +73,10 @@ This desktop AI application leverages advanced LLM models from LM Studio, along 
    Password_email = email_password.
    ```
 3. **Setup the keys and passwords.
+   
     [LMSTUDIO](https://lmstudio.ai)
     ```
-       #Download llm models from lm studio these model run locally on your system.
+       - Download llm models from lm studio these model run locally on your system.
          - nomic-embed-text-v1.5-GGUF (generate embeddings)
          - Mistral-7B-Instruct-v0.2-GGUF  (text model)
          - llava-phi-3-mini-gguf  (intall vision adapter)  (image + text) model
