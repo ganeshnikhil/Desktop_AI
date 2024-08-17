@@ -208,4 +208,4 @@ Feel free to submit issues, improvements, or pull requests. Please follow the st
 If you have any questions or need further assistance, please contact [ganeshnikhil124@gmail.com].
 
 ## ..
-<iframe width="418" height="743" src="https://www.youtube.com/embed/xi_j7D1nLxY" title="J.A.R.V.I.S 2.0 #python3 #jarvis #ironman #ml" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Watch the video](https://www.youtube.com/watch?v=xi_j7D1nLxY)
