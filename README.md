@@ -9,11 +9,11 @@ This desktop AI application leverages advanced LLM models from LM Studio, along 
 
 ## Features
 
--**Voice Activation**: Activate the AI with the command "Hey Jarvis".
--**Speech Recognition**: Converts spoken language into text.
--**Embedding and Similarity**: Uses embeddings to calculate cosine similarity between prompts and a list of predefined prompts.
--**API Integration**: Fetches data from weather and news APIs.
--**Dynamic Responses**: Provides varied responses based on the context of the conversation.
+- **Voice Activation**: Activate the AI with the command "Hey Jarvis".
+- **Speech Recognition**: Converts spoken language into text.
+- **Embedding and Similarity**: Uses embeddings to calculate cosine similarity between prompts and a list of predefined prompts.
+- **API Integration**: Fetches data from weather and news APIs.
+- **Dynamic Responses**: Provides varied responses based on the context of the conversation.
 
 ## Setup Instructions
 
