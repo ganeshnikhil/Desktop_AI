@@ -7,6 +7,21 @@ from src.FUNCTION.random_respon import random_choice
 from src.DATA.msg import responses , welcome_responses , end_responses , ending_phrases
 import time 
 
+'''
+To work around this issue, you can modify the nsss.py file in the pyttsx3 library to handle the missing 'VoiceAge' attribute gracefully. Here's a quick solution:
+
+Locate the nsss.py file in your virtual environment. The path should be something like /Users/Shared/Code/Speech/.venv/lib/python3.9/site-packages/pyttsx3/drivers/nsss.py.
+Modify the _toVoice method to handle the missing 'VoiceAge' attribute. Replace the existing _toVoice method with the following:
+
+def _toVoice(self, attr):
+    return Voice(attr['VoiceIdentifier'],
+                 attr.get('VoiceName', 'Unknown'),
+                 attr.get('VoiceLocaleIdentifier', 'Unknown'),
+                 attr.get('VoiceGender', 'Unknown'),
+                 attr.get('VoiceAge', 'Unknown'))
+
+'''
+
 
 def main():
     print("[*] Say 'hey jarvis' to activate, or 'exit' to quit.")
