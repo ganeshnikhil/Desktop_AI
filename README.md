@@ -6,9 +6,7 @@
 ## Overview
 
 This desktop AI application leverages advanced LLM models from LM Studio, along with various APIs for weather and news updates. It includes speech
-
 recognition capabilities, cosine similarity for prompt comparison, and a range of responses for interactive communication.
-
 The application is designed to be activated by voice commands and provides intelligent responses based on the context of the conversation.
 
 ## Features
