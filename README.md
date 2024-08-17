@@ -49,8 +49,8 @@ This desktop AI application leverages advanced LLM models from LM Studio, along 
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/ganeshnikhil/Desktop_AI.git
+   cd Desktop_AI
    ```
 
 2. **Install dependencies**:
@@ -199,7 +199,5 @@ Feel free to submit issues, improvements, or pull requests. Please follow the st
 
 ## Contact
 
-If you have any questions or need further assistance, please contact [your email or contact information].
+If you have any questions or need further assistance, please contact [ganeshnikhil124@gmail.com].
 ```
-
-Replace `<repository-url>` and `<repository-directory>` with your actual repository URL and directory name. You might also want to update the contact information and any other specific details relevant to your project.
