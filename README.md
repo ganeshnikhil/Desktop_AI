@@ -74,25 +74,33 @@ This desktop AI application leverages advanced LLM models from LM Studio, along 
    ```
 3. **Setup the keys and passwords.
     [LMSTUDIO](https://lmstudio.ai)
+    ```
        #Download llm models from lm studio these model run locally on your system.
          - nomic-embed-text-v1.5-GGUF (generate embeddings)
          - Mistral-7B-Instruct-v0.2-GGUF  (text model)
          - llava-phi-3-mini-gguf  (intall vision adapter)  (image + text) model
          - Eris_PrimeV4-Vision-32k-7B-GGUF-IQ-Imatrix  (install vision adapter) (image + text) model
-   
+    ````
     [WEATHER](https://rapidapi.com/weatherapi/api/weatherapi-com)
-       # get weather api
+    ```
+       - get weather api
+    ```
     [NEWS](https://newsapi.org)
-       # get news api 
+    ```
+       - get news api
+    ```
     [GMAIL_PASSWORD](https://myaccount.google.com/apppasswords)
-       # generate password to send email using smptlib
-   
+    ```
+       - generate password to send email using smptlib
+    ```
 5. **System requirements
-    # higher is the specs better the model will perfomrm 
+    # higher is the specs better the model will perfomrm
+   ```
     - 8gb+ ram (higher is better)
     - 250 gb+ storage 
     - i5 processor or m processor 
-    - gpu / npu 
+    - gpu / npu
+   ```
   
    
 ### Usage
