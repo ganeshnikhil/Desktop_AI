@@ -12,7 +12,7 @@ The application is designed to be activated by voice commands and provides intel
 
 lm studio  | chat with jarvis| 
 |--------------|-------------|
-<img src="sample/lm.png" width = "400"/>| <img src="sample/chat.png" width="400"/> |
+<img src="sample/lm.png" width = "500"/>| <img src="sample/chat.png" width="500"/> |
 ## Features
 
 - **Voice Activation**: Activate the AI with the command "Hey Jarvis".
