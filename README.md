@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](https://github.com/ganeshnikhil/Desktop_AI/blob/main/LICENSE) file for details.
 
 ## Contributing
 
