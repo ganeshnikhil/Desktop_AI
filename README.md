@@ -9,6 +9,10 @@ This desktop AI application leverages advanced LLM models from LM Studio, along 
 recognition capabilities, cosine similarity for prompt comparison, and a range of responses for interactive communication.
 The application is designed to be activated by voice commands and provides intelligent responses based on the context of the conversation.
 
+
+lm studio  | chat with jarvis| 
+|--------------|-------------|
+<img src="sample/lm.png" width = "400"/>| <img src="sample/chat.png" width="400"/> |
 ## Features
 
 - **Voice Activation**: Activate the AI with the command "Hey Jarvis".
