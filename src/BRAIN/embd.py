@@ -8,8 +8,9 @@ def get_embedding(text:str, model="nomic-ai/nomic-embed-text-v1.5-GGUF") -> list
     text = text.replace("\n", " ").strip()
     try:
         embdedding = client.embeddings.create(input=[text], model=model).data[0].embedding
+        return embdedding 
     except Exception as e:
-        pass
+        return None 
 
 
 def cosine_similarity(embedding1:list[float], embedding2:list[float]) -> float:
@@ -47,16 +48,8 @@ def similar_prompt(prompt:str , threshold = 55) -> str:
         maximum = 0.01
         content_type = f"chat + {prompt}"
         
-    print(get_embedding_cached.cache_info())
-    print(f"The most similar content type is: {content_type} with a similarity score of {find_percentage(maximum)}")
+    #print(get_embedding_cached.cache_info())
+    print(f"\nThe most similar content type is: {content_type} with a similarity score of {find_percentage(maximum)}")
     return content_type 
 
-#print(get_embedding_cached.cache_info())
 
-# prompt = "tell me a story"
-# similar_prompt(prompt)
-# # embdeing1 = get_embedding(prompt)
-# # # similarity = cosine_similarity(embedding1, embedding2)
-# # # print(f'Cosine similarity: {similarity}')
-
-# # print(get_embedding("Once upon a time, there was a cat."))
