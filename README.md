@@ -208,5 +208,5 @@ Feel free to submit issues, improvements, or pull requests. Please follow the st
 If you have any questions or need further assistance, please contact [ganeshnikhil124@gmail.com].
 
 ## ..
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xi_j7D1nLxY" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/xi_j7D1nLxY/hqdefault.jpg)](https://www.youtube.com/watch?v=xi_j7D1nLxY)
 
